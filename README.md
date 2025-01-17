@@ -1,1 +1,0 @@
-# kdamian_paradigms
