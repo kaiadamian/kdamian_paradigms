@@ -68,6 +68,6 @@ def print_output(output: list) -> None:
         print(line)
 
 if __name__ == "__main__":
-    expression = "8/2*10"  # Test 1
+    expression = "2*7+3"  # Test 1
     output = text_to_tree(expression)
     print_output(output)
