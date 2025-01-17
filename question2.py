@@ -16,7 +16,7 @@ def text_to_tree(expression: str) -> list:
         if not root:
             return
         
-        queue = [root]                          # initialize queue and visited set
+        queue = [root]                          # initialize queue
 
         while queue:                            # while there are nodes left in the queue
             node = queue.pop(0)                 # pop node from the left side (FIFO order)
@@ -68,6 +68,6 @@ def print_output(output: list) -> None:
         print(line)
 
 if __name__ == "__main__":
-    expression = "2*7+3"  # Test 1
+    expression = "8/2*10"  # Test 1
     output = text_to_tree(expression)
     print_output(output)
