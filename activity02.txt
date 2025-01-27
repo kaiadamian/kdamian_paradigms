@@ -7,7 +7,7 @@ console.log(myFunction(3))
 
 
 
-The given code prints undefined instead of 7 because javascript automatically inserts a semicolon between "return" and "2*n + 1" because of the line break. Thus, the function ends at the line return;, which returns undefined. 
+The given code prints undefined instead of 7 because javascript automatically inserts a semicolon between "return" and "2*n + 1" because of the line break. Thus, the function ends at the line return;, which returns undefined and never reaches "2*n + 1". 
 In order to solve this problem, we must change the given code to the following:
 
 function myFunction(n){
